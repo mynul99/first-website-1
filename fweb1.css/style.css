@@ -1,17 +1,33 @@
 /*header style*/
-.header{
+.header {
     background-color: #FFF8F3;
 }
-.banner{
-    padding: 30px 30px 30px 150px;
+
+.banner {
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
-    
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-image: url('../images/header_bg.png')
 }
-.profil-pic{
+
+.banner-welcome {
+    font-size: 45px;
+
+    font-weight: 600;
+}
+.banner-title{
+    font-size: 85px;
+
+font-weight: 700;
+}
+
+.profil-pic {
     width: 500px;
-    
+
 }
+
 /*nav related style*/
 nav {
 
@@ -40,7 +56,7 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color:#474747;
+    color: #474747;
 }
 
 /* all style*/
