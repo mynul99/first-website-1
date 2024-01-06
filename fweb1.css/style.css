@@ -1,7 +1,24 @@
+/*header style*/
+.header{
+    background-color: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+    
+}
+.profil-pic{
+    width: 500px;
+    
+}
+/*nav related style*/
 nav {
+
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 220px;
 }
 
 .nav-title {
