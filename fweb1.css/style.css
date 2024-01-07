@@ -192,7 +192,8 @@ text-align: left;
 }
 /*resume style*/
 .resume-box{
-    
+    display: flex;
+    gap: 50px;
 }
 .resume-title{
     color:  #474747;
@@ -201,4 +202,83 @@ font-size: 30px;
 
 font-weight: 700;
 
+}
+.resume-item{
+
+}
+.resume-item-name{
+    color:  #474747;
+    font-size: 25px;
+    font-weight: 700;
+}
+.resume-item-institude{
+    color:  #757575;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+.resume-item-dex{
+    color:  #757575;
+font-size: 16px;
+font-weight: 400;
+
+}
+.downlod-cv{
+    padding-top: 20px;
+    text-align: center;
+}
+/*footer style*/
+footer{
+  display: flex;  
+background: #FFF8F3;
+margin-top: 100px;
+}
+.connect{
+    color:  #181818;
+
+font-family: Open Sans;
+font-size: 35px;
+
+font-weight: 700;
+margin: 130px 0px 0px 0px;
+
+}
+.connect-dex{
+    color:  #474747;
+
+font-size: 16px;
+
+font-weight: 400px;
+margin: 20px 120px 20px 0px;
+
+}
+.footer-colum{
+    margin-left: 230px;
+}
+#name{
+    width: 461px;
+height: 64px;
+border-radius: 5px;
+background:  #FFF;
+border: none;
+}
+#number{
+    width: 461px;
+height: 64px;
+border-radius: 5px;
+background:  #FFF;
+border: none;
+margin-top: 20px;
+    
+}
+#comment{
+    width: 461px;
+height: 180px;
+border-radius: 5px;
+background:  #FFF;
+border: none;
+margin-top: 20px;
+}
+#submit{
+    margin-top: 20px;
 }
